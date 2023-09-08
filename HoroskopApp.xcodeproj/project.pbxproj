@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BDED271D241BE41F14EA5B /* Pods_HoroskopApp_HoroskopAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A7D0D8292E9AEF37C25065 /* Pods_HoroskopApp_HoroskopAppUITests.framework */; };
+		36619C06C61A7C2EF37A77F7 /* Pods_HoroskopApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AF152515B48B57211C36EC /* Pods_HoroskopApp.framework */; };
+		5EC92C5CC1E10B68C04E0C94 /* Pods_HoroskopAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19E8C9CC486FEF1653D8D3C /* Pods_HoroskopAppTests.framework */; };
+		D055F72E2AABBB0F0076E490 /* Readmee.md in Resources */ = {isa = PBXBuildFile; fileRef = D055F72D2AABBB0F0076E490 /* Readmee.md */; };
+		D09EAC3B2AA89EE4001ADD8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09EAC3A2AA89EE4001ADD8F /* AppDelegate.swift */; };
+		D09EAC3D2AA89EE4001ADD8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09EAC3C2AA89EE4001ADD8F /* SceneDelegate.swift */; };
+		D09EAC3F2AA89EE4001ADD8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09EAC3E2AA89EE4001ADD8F /* ViewController.swift */; };
+		D09EAC422AA89EE4001ADD8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09EAC402AA89EE4001ADD8F /* Main.storyboard */; };
+		D09EAC442AA89EE5001ADD8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09EAC432AA89EE5001ADD8F /* Assets.xcassets */; };
+		D09EAC472AA89EE5001ADD8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09EAC452AA89EE5001ADD8F /* LaunchScreen.storyboard */; };
+		D09EAC522AA89EE5001ADD8F /* HoroskopAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09EAC512AA89EE5001ADD8F /* HoroskopAppTests.swift */; };
+		D09EAC5C2AA89EE5001ADD8F /* HoroskopAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09EAC5B2AA89EE5001ADD8F /* HoroskopAppUITests.swift */; };
+		D09EAC5E2AA89EE5001ADD8F /* HoroskopAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09EAC5D2AA89EE5001ADD8F /* HoroskopAppUITestsLaunchTests.swift */; };
+		D09EAC6B2AA8BE84001ADD8F /* BurcOzellikVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09EAC6A2AA8BE84001ADD8F /* BurcOzellikVC.swift */; };
+		D09EAC6D2AA9E906001ADD8F /* BurcOzellikModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09EAC6C2AA9E906001ADD8F /* BurcOzellikModel.swift */; };
+		D09EAC6F2AAA6650001ADD8F /* MitolojiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09EAC6E2AAA6650001ADD8F /* MitolojiVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D09EAC4E2AA89EE5001ADD8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D09EAC2F2AA89EE4001ADD8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09EAC362AA89EE4001ADD8F;
+			remoteInfo = HoroskopApp;
+		};
+		D09EAC582AA89EE5001ADD8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D09EAC2F2AA89EE4001ADD8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09EAC362AA89EE4001ADD8F;
+			remoteInfo = HoroskopApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		265851980F57D38BFC4F3062 /* Pods-HoroskopApp-HoroskopAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoroskopApp-HoroskopAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-HoroskopApp-HoroskopAppUITests/Pods-HoroskopApp-HoroskopAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2989760AFF47F5753BD7CB9A /* Pods-HoroskopApp-HoroskopAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoroskopApp-HoroskopAppUITests.release.xcconfig"; path = "Target Support Files/Pods-HoroskopApp-HoroskopAppUITests/Pods-HoroskopApp-HoroskopAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		40A7D0D8292E9AEF37C25065 /* Pods_HoroskopApp_HoroskopAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoroskopApp_HoroskopAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73AF152515B48B57211C36EC /* Pods_HoroskopApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoroskopApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E831E95D59FC463E571918 /* Pods-HoroskopAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoroskopAppTests.debug.xcconfig"; path = "Target Support Files/Pods-HoroskopAppTests/Pods-HoroskopAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B19E8C9CC486FEF1653D8D3C /* Pods_HoroskopAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoroskopAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B93142AF035F59433099A5BA /* Pods-HoroskopAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoroskopAppTests.release.xcconfig"; path = "Target Support Files/Pods-HoroskopAppTests/Pods-HoroskopAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C3D5DCB507C8359AB92B4CF9 /* Pods-HoroskopApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoroskopApp.debug.xcconfig"; path = "Target Support Files/Pods-HoroskopApp/Pods-HoroskopApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D055F72D2AABBB0F0076E490 /* Readmee.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readmee.md; sourceTree = "<group>"; };
+		D09EAC372AA89EE4001ADD8F /* HoroskopApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoroskopApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09EAC3A2AA89EE4001ADD8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D09EAC3C2AA89EE4001ADD8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D09EAC3E2AA89EE4001ADD8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D09EAC412AA89EE4001ADD8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D09EAC432AA89EE5001ADD8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D09EAC462AA89EE5001ADD8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D09EAC482AA89EE5001ADD8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09EAC4D2AA89EE5001ADD8F /* HoroskopAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoroskopAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09EAC512AA89EE5001ADD8F /* HoroskopAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroskopAppTests.swift; sourceTree = "<group>"; };
+		D09EAC572AA89EE5001ADD8F /* HoroskopAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoroskopAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09EAC5B2AA89EE5001ADD8F /* HoroskopAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroskopAppUITests.swift; sourceTree = "<group>"; };
+		D09EAC5D2AA89EE5001ADD8F /* HoroskopAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroskopAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D09EAC6A2AA8BE84001ADD8F /* BurcOzellikVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurcOzellikVC.swift; sourceTree = "<group>"; };
+		D09EAC6C2AA9E906001ADD8F /* BurcOzellikModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurcOzellikModel.swift; sourceTree = "<group>"; };
+		D09EAC6E2AAA6650001ADD8F /* MitolojiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MitolojiVC.swift; sourceTree = "<group>"; };
+		D49F8196F14AE4C56D8669EB /* Pods-HoroskopApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoroskopApp.release.xcconfig"; path = "Target Support Files/Pods-HoroskopApp/Pods-HoroskopApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D09EAC342AA89EE4001ADD8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36619C06C61A7C2EF37A77F7 /* Pods_HoroskopApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09EAC4A2AA89EE5001ADD8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC92C5CC1E10B68C04E0C94 /* Pods_HoroskopAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09EAC542AA89EE5001ADD8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BDED271D241BE41F14EA5B /* Pods_HoroskopApp_HoroskopAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6066E97B00AA9FB1716826A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3D5DCB507C8359AB92B4CF9 /* Pods-HoroskopApp.debug.xcconfig */,
+				D49F8196F14AE4C56D8669EB /* Pods-HoroskopApp.release.xcconfig */,
+				265851980F57D38BFC4F3062 /* Pods-HoroskopApp-HoroskopAppUITests.debug.xcconfig */,
+				2989760AFF47F5753BD7CB9A /* Pods-HoroskopApp-HoroskopAppUITests.release.xcconfig */,
+				73E831E95D59FC463E571918 /* Pods-HoroskopAppTests.debug.xcconfig */,
+				B93142AF035F59433099A5BA /* Pods-HoroskopAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D09EAC2E2AA89EE4001ADD8F = {
+			isa = PBXGroup;
+			children = (
+				D055F72D2AABBB0F0076E490 /* Readmee.md */,
+				D09EAC392AA89EE4001ADD8F /* HoroskopApp */,
+				D09EAC502AA89EE5001ADD8F /* HoroskopAppTests */,
+				D09EAC5A2AA89EE5001ADD8F /* HoroskopAppUITests */,
+				D09EAC382AA89EE4001ADD8F /* Products */,
+				6066E97B00AA9FB1716826A2 /* Pods */,
+				E29237A4F5D8399C3E3662A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D09EAC382AA89EE4001ADD8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D09EAC372AA89EE4001ADD8F /* HoroskopApp.app */,
+				D09EAC4D2AA89EE5001ADD8F /* HoroskopAppTests.xctest */,
+				D09EAC572AA89EE5001ADD8F /* HoroskopAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D09EAC392AA89EE4001ADD8F /* HoroskopApp */ = {
+			isa = PBXGroup;
+			children = (
+				D09EAC3A2AA89EE4001ADD8F /* AppDelegate.swift */,
+				D09EAC3C2AA89EE4001ADD8F /* SceneDelegate.swift */,
+				D09EAC3E2AA89EE4001ADD8F /* ViewController.swift */,
+				D09EAC6A2AA8BE84001ADD8F /* BurcOzellikVC.swift */,
+				D09EAC6C2AA9E906001ADD8F /* BurcOzellikModel.swift */,
+				D09EAC402AA89EE4001ADD8F /* Main.storyboard */,
+				D09EAC6E2AAA6650001ADD8F /* MitolojiVC.swift */,
+				D09EAC432AA89EE5001ADD8F /* Assets.xcassets */,
+				D09EAC452AA89EE5001ADD8F /* LaunchScreen.storyboard */,
+				D09EAC482AA89EE5001ADD8F /* Info.plist */,
+			);
+			path = HoroskopApp;
+			sourceTree = "<group>";
+		};
+		D09EAC502AA89EE5001ADD8F /* HoroskopAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D09EAC512AA89EE5001ADD8F /* HoroskopAppTests.swift */,
+			);
+			path = HoroskopAppTests;
+			sourceTree = "<group>";
+		};
+		D09EAC5A2AA89EE5001ADD8F /* HoroskopAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D09EAC5B2AA89EE5001ADD8F /* HoroskopAppUITests.swift */,
+				D09EAC5D2AA89EE5001ADD8F /* HoroskopAppUITestsLaunchTests.swift */,
+			);
+			path = HoroskopAppUITests;
+			sourceTree = "<group>";
+		};
+		E29237A4F5D8399C3E3662A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73AF152515B48B57211C36EC /* Pods_HoroskopApp.framework */,
+				40A7D0D8292E9AEF37C25065 /* Pods_HoroskopApp_HoroskopAppUITests.framework */,
+				B19E8C9CC486FEF1653D8D3C /* Pods_HoroskopAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D09EAC362AA89EE4001ADD8F /* HoroskopApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09EAC612AA89EE5001ADD8F /* Build configuration list for PBXNativeTarget "HoroskopApp" */;
+			buildPhases = (
+				AAE4F93B3CD85C502491C2A4 /* [CP] Check Pods Manifest.lock */,
+				D09EAC332AA89EE4001ADD8F /* Sources */,
+				D09EAC342AA89EE4001ADD8F /* Frameworks */,
+				D09EAC352AA89EE4001ADD8F /* Resources */,
+				72FD876AB6C9A189870EF781 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoroskopApp;
+			productName = HoroskopApp;
+			productReference = D09EAC372AA89EE4001ADD8F /* HoroskopApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D09EAC4C2AA89EE5001ADD8F /* HoroskopAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09EAC642AA89EE5001ADD8F /* Build configuration list for PBXNativeTarget "HoroskopAppTests" */;
+			buildPhases = (
+				24C06BEE567BB768C5F458D2 /* [CP] Check Pods Manifest.lock */,
+				D09EAC492AA89EE5001ADD8F /* Sources */,
+				D09EAC4A2AA89EE5001ADD8F /* Frameworks */,
+				D09EAC4B2AA89EE5001ADD8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D09EAC4F2AA89EE5001ADD8F /* PBXTargetDependency */,
+			);
+			name = HoroskopAppTests;
+			productName = HoroskopAppTests;
+			productReference = D09EAC4D2AA89EE5001ADD8F /* HoroskopAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D09EAC562AA89EE5001ADD8F /* HoroskopAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09EAC672AA89EE5001ADD8F /* Build configuration list for PBXNativeTarget "HoroskopAppUITests" */;
+			buildPhases = (
+				C2C975251ED543027013AB66 /* [CP] Check Pods Manifest.lock */,
+				D09EAC532AA89EE5001ADD8F /* Sources */,
+				D09EAC542AA89EE5001ADD8F /* Frameworks */,
+				D09EAC552AA89EE5001ADD8F /* Resources */,
+				3687E518A1BEE0AE1B1B6311 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D09EAC592AA89EE5001ADD8F /* PBXTargetDependency */,
+			);
+			name = HoroskopAppUITests;
+			productName = HoroskopAppUITests;
+			productReference = D09EAC572AA89EE5001ADD8F /* HoroskopAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D09EAC2F2AA89EE4001ADD8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D09EAC362AA89EE4001ADD8F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D09EAC4C2AA89EE5001ADD8F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D09EAC362AA89EE4001ADD8F;
+					};
+					D09EAC562AA89EE5001ADD8F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D09EAC362AA89EE4001ADD8F;
+					};
+				};
+			};
+			buildConfigurationList = D09EAC322AA89EE4001ADD8F /* Build configuration list for PBXProject "HoroskopApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D09EAC2E2AA89EE4001ADD8F;
+			productRefGroup = D09EAC382AA89EE4001ADD8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D09EAC362AA89EE4001ADD8F /* HoroskopApp */,
+				D09EAC4C2AA89EE5001ADD8F /* HoroskopAppTests */,
+				D09EAC562AA89EE5001ADD8F /* HoroskopAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D09EAC352AA89EE4001ADD8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09EAC472AA89EE5001ADD8F /* LaunchScreen.storyboard in Resources */,
+				D09EAC442AA89EE5001ADD8F /* Assets.xcassets in Resources */,
+				D055F72E2AABBB0F0076E490 /* Readmee.md in Resources */,
+				D09EAC422AA89EE4001ADD8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09EAC4B2AA89EE5001ADD8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09EAC552AA89EE5001ADD8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24C06BEE567BB768C5F458D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HoroskopAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3687E518A1BEE0AE1B1B6311 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HoroskopApp-HoroskopAppUITests/Pods-HoroskopApp-HoroskopAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HoroskopApp-HoroskopAppUITests/Pods-HoroskopApp-HoroskopAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HoroskopApp-HoroskopAppUITests/Pods-HoroskopApp-HoroskopAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72FD876AB6C9A189870EF781 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HoroskopApp/Pods-HoroskopApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HoroskopApp/Pods-HoroskopApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HoroskopApp/Pods-HoroskopApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAE4F93B3CD85C502491C2A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HoroskopApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2C975251ED543027013AB66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HoroskopApp-HoroskopAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D09EAC332AA89EE4001ADD8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09EAC3F2AA89EE4001ADD8F /* ViewController.swift in Sources */,
+				D09EAC6B2AA8BE84001ADD8F /* BurcOzellikVC.swift in Sources */,
+				D09EAC6D2AA9E906001ADD8F /* BurcOzellikModel.swift in Sources */,
+				D09EAC3B2AA89EE4001ADD8F /* AppDelegate.swift in Sources */,
+				D09EAC3D2AA89EE4001ADD8F /* SceneDelegate.swift in Sources */,
+				D09EAC6F2AAA6650001ADD8F /* MitolojiVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09EAC492AA89EE5001ADD8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09EAC522AA89EE5001ADD8F /* HoroskopAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09EAC532AA89EE5001ADD8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09EAC5C2AA89EE5001ADD8F /* HoroskopAppUITests.swift in Sources */,
+				D09EAC5E2AA89EE5001ADD8F /* HoroskopAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D09EAC4F2AA89EE5001ADD8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D09EAC362AA89EE4001ADD8F /* HoroskopApp */;
+			targetProxy = D09EAC4E2AA89EE5001ADD8F /* PBXContainerItemProxy */;
+		};
+		D09EAC592AA89EE5001ADD8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D09EAC362AA89EE4001ADD8F /* HoroskopApp */;
+			targetProxy = D09EAC582AA89EE5001ADD8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D09EAC402AA89EE4001ADD8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D09EAC412AA89EE4001ADD8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D09EAC452AA89EE5001ADD8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D09EAC462AA89EE5001ADD8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D09EAC5F2AA89EE5001ADD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D09EAC602AA89EE5001ADD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D09EAC622AA89EE5001ADD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3D5DCB507C8359AB92B4CF9 /* Pods-HoroskopApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MLS7NSP5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HoroskopApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.HoroskopApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D09EAC632AA89EE5001ADD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D49F8196F14AE4C56D8669EB /* Pods-HoroskopApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MLS7NSP5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HoroskopApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.HoroskopApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D09EAC652AA89EE5001ADD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73E831E95D59FC463E571918 /* Pods-HoroskopAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MLS7NSP5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.HoroskopAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoroskopApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HoroskopApp";
+			};
+			name = Debug;
+		};
+		D09EAC662AA89EE5001ADD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B93142AF035F59433099A5BA /* Pods-HoroskopAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MLS7NSP5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.HoroskopAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoroskopApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HoroskopApp";
+			};
+			name = Release;
+		};
+		D09EAC682AA89EE5001ADD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 265851980F57D38BFC4F3062 /* Pods-HoroskopApp-HoroskopAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MLS7NSP5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.HoroskopAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HoroskopApp;
+			};
+			name = Debug;
+		};
+		D09EAC692AA89EE5001ADD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2989760AFF47F5753BD7CB9A /* Pods-HoroskopApp-HoroskopAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MLS7NSP5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.HoroskopAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HoroskopApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D09EAC322AA89EE4001ADD8F /* Build configuration list for PBXProject "HoroskopApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09EAC5F2AA89EE5001ADD8F /* Debug */,
+				D09EAC602AA89EE5001ADD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09EAC612AA89EE5001ADD8F /* Build configuration list for PBXNativeTarget "HoroskopApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09EAC622AA89EE5001ADD8F /* Debug */,
+				D09EAC632AA89EE5001ADD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09EAC642AA89EE5001ADD8F /* Build configuration list for PBXNativeTarget "HoroskopAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09EAC652AA89EE5001ADD8F /* Debug */,
+				D09EAC662AA89EE5001ADD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09EAC672AA89EE5001ADD8F /* Build configuration list for PBXNativeTarget "HoroskopAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09EAC682AA89EE5001ADD8F /* Debug */,
+				D09EAC692AA89EE5001ADD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D09EAC2F2AA89EE4001ADD8F /* Project object */;
+}
