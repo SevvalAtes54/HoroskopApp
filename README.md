@@ -5,7 +5,8 @@
 Bu iOS uygulaması, kullanıcılara astrolojik burçların özelliklerini ve mitolojik hikayelerini gösteren bir mobil uygulamadır.
 
 ## Uygulama Özellikleri
-
+![Ana Sayfa](https://github.com/SevvalAtes54/HoroskopApp/assets/116071942/2d02cf05-e256-477b-9d37-6284ad407c81)
+![Burç Özellik](https://github.com/SevvalAtes54/HoroskopApp/assets/116071942/ab91618d-85cd-4ce1-8b97-ab1f9e43506e)
 ### Burç Özellikleri
 
 - Kullanıcılar, uygulama üzerinden 12 farklı burcun özelliklerini inceleyebilirler.
